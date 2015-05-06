@@ -2,15 +2,15 @@
 
 ## Description
 
-Salt state that installs and configures the [ICAClient]('https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-131.html')
+Salt state that installs and configures the [ICAClient](https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-131.html)
 
 ## Requirements
 
-* [Ubuntu 14.04 Desktop]('http://ubuntu.com')
-* [Citrix ICAClient]('https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-131.html')
-* [Salt]('http://saltstack.com')
+* [Ubuntu 14.04 Desktop](http://ubuntu.com)
+* [Citrix ICAClient](https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-131.html)
+* [Salt](http://saltstack.com)
 
-Tested on **Salt 2014.7.5 (Helium)**, **Ubuntu 14.04** and **ICAClient 13.1**
+Tested with **Salt 2014.7.5 (Helium)**, **Ubuntu 14.04** and **ICAClient 13.1**
 
 This state can be run on virtual machine as well.
 
