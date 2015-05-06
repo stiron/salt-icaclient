@@ -1,1 +1,1 @@
-# The downloaded .deb file should be put here
+# The downloaded .deb file must here
