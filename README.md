@@ -26,10 +26,18 @@ This state removes the deb file from tmp and flushes the apt cache
 
 ## Usage
 
-* Download the current ICAClient installer deb
-* Put the deb in the `files/` directory
-* Set the `icaclient_file` variable in the init.sls
+* Clone the repository to the `/srv/salt/citrixica/` directory
+* Download the current ICAClient installer deb on the PC
+* Put the deb file in the `files/` directory
+* Set the `icaclient_file` variable in the `init.sls` file
 * Add the state(s) to your Salt state tree
+
+Example:
+```
+base:
+  '*':
+    - citrixica
+```
 
 ## Contributing
 
